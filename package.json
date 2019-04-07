@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "start": "next",
+    "build": "next build && next export",
+    "format": "prettier --write --ignore-path .gitignore '**/*.{js,md,mdx,html,css}'",
+    "clean": "rm -rf .next"
+  },
+  "dependencies": {
+    "next": "^8.0.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "prettier": "^1.16.4"
+  }
+}
