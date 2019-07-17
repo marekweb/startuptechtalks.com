@@ -6,11 +6,11 @@
     "clean": "rm -rf .next"
   },
   "dependencies": {
-    "next": "^8.0.4",
+    "next": "^9.0.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
   "devDependencies": {
-    "prettier": "^1.16.4"
+    "prettier": "^1.18.2"
   }
 }
