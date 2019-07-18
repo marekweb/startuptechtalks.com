@@ -2,6 +2,8 @@ import React from "react";
 import Head from "next/head";
 import speakers from "../components/speakers-data";
 import SpeakerList from "../components/speaker-list";
+import Section from "../components/section";
+import Card from "../components/card";
 
 export default () => (
   <div>
@@ -24,34 +26,34 @@ export default () => (
         content="Lessons from building tech startups and reflections on the developer life"
       />
     </Head>
-    <div className="section header">
-      <div className="content">
-        <div>
-          <img style={{ maxWidth: 500 }} src="/static/startuptechtalks.png" />
-        </div>
+    <Section className="header">
+      <div>
+        <img style={{ maxWidth: 500 }} src="/static/startuptechtalks.png" />
+      </div>
+      <p>
+        Deep insights shared by the top technologists
+        <br />
+        from the most innovative local tech startups.
+      </p>
+    </Section>
+    <Section className="banner"></Section>
+    <Section className="section-dark center">
+      <h1>Join the community</h1>
+      <Card>
+        <p>We have a vibrant community of 1,400 members</p>
         <p>
-          Deep insights shared by the top technologists
-          <br />
-          from the most innovative local tech startups.
+          <a
+            className="button"
+            href="https://www.meetup.com/Startup-Tech-Talks-Montreal/"
+          >
+            Join on Meetup.com
+          </a>
         </p>
-      </div>
-    </div>
-    <div className="section section-dark">
-      <div className="content center">
-        <h1>Join the community</h1>
-        <a
-          className="button"
-          href="https://www.meetup.com/Startup-Tech-Talks-Montreal/"
-        >
-          Join on Meetup.com
-        </a>
-      </div>
-    </div>
-    <div className="section">
-      <div className="content">
-        <SpeakerList speakers={speakers} />
-      </div>
-    </div>
+      </Card>
+    </Section>
+    <Section>
+      <SpeakerList speakers={speakers} />
+    </Section>
     <div className="footer">&copy; 2019</div>
   </div>
 );
