@@ -2,51 +2,52 @@ module.exports = [
   {
     name: "Rami Sayar",
     img: "rami-sayar.jpg",
-    url: "#"
+    url: "https://www.linkedin.com/in/ramisayar/"
   },
   {
-    name: "Geoff Goodman",
+    name: "Geoffrey Goodman",
     img: "geoff-goodman.jpg",
-    url: "#"
+    url: "https://www.linkedin.com/in/geoff-goodman/"
   },
   {
     name: "Eric Walker",
     img: "eric-walker.jpg",
-    url: "#"
+    company: "Shopify",
+    url: "https://www.linkedin.com/in/ericjwalker/"
   },
   {
     name: "Eric Kueper",
     img: "eric-kueper.jpg",
-    url: "#"
+    url: "https://www.linkedin.com/in/eric-kueper/"
   },
   {
     name: "Jeffrey Dungen",
     img: "jeffrey-dungen.jpg",
-    url: "#"
+    url: "https://www.linkedin.com/in/dungen/"
   },
   {
     name: "Phil Rivard",
     img: "phil-rivard.jpg",
-    url: "#"
+    url: "https://www.linkedin.com/in/privard/"
   },
   {
     name: "Adolfo Rodriguez",
     img: "adolfo-rodriguez.jpg",
-    url: "#"
+    url: "https://www.linkedin.com/in/wircho/"
   },
   {
     name: "Ryan Desgroseilliers",
     img: "ryan-desgroseilliers.jpg",
-    url: "#"
+    url: "https://www.linkedin.com/in/ryandesg/"
   },
   {
     name: "Tuyet Minh Truong",
     img: "tuyet-minh-truong.jpg",
-    url: "#"
+    url: "https://www.linkedin.com/in/tuyet-minh-truong-19ab8a38/"
   },
   {
     name: "Nathan Zylbersztejn",
     img: "nathan-zylbersztejn.jpg",
-    url: "#"
+    url: "https://www.linkedin.com/in/nathanzylbersztejn/"
   }
 ];
