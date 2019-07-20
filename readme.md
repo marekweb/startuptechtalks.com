@@ -1,10 +1,12 @@
+<img src="static/startuptechtalks.png" width="200">
+
 # Startup Tech Talks website
 
 ## How to add or modify pages of the website
 
 The website is built with React as a [Next.js](https://nextjs.org/) project.
 
-Each file in the `/pages` directory is automatically
+Each file in the `/pages` directory is automatically rendered as a page of the website.
 
 Each page is a React component.
 
