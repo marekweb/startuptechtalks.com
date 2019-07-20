@@ -4,15 +4,10 @@
 	gray; #322e36;
 */
 
-.header {
-  background-image: url(/images/header.jpg);
-  background-position: center;
-  background-size: cover;
-  background-color: #f9f9f9;
-  min-height: 300px;
-  padding-top: 100px;
+.section.header {
+  background-image: url(/static/grid.png);
+  padding: 150px 0;
   text-align: center;
-  background-attachment: fixed;
 }
 
 .banner {
@@ -71,6 +66,7 @@ ul {
 
 .section-dark {
   background-color: #5100a4;
+  background-image: url(/static/grid.png);
   color: white;
 }
 
