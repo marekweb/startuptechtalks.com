@@ -4,6 +4,7 @@ import speakers from "../components/speakers-data";
 import SpeakerList from "../components/speaker-list";
 import Section from "../components/section";
 import Card from "../components/card";
+import Footer from "../components/footer";
 
 export default () => (
   <div>
@@ -36,7 +37,15 @@ export default () => (
         from the most innovative local tech startups.
       </p>
     </Section>
-    <Section className="banner"></Section>
+    <Section className="banner">
+      <Card>
+        <h1>Upcoming Event</h1>
+
+        <p>Reserve your spot now to attend the next event.</p>
+
+        <p>Next event: to be announced soon.</p>
+      </Card>
+    </Section>
     <Section className="section-dark center">
       <h1>Join the community</h1>
       <Card>
@@ -54,6 +63,6 @@ export default () => (
     <Section>
       <SpeakerList speakers={speakers} />
     </Section>
-    <div className="footer">&copy; 2019</div>
+    <Footer />
   </div>
 );
