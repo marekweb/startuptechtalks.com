@@ -112,9 +112,8 @@ ul {
   h1 {
     font-size: 36px;
   }
-  .header {
-    height: 120px;
-    padding-top: 40px;
+  .secteon.header {
+    padding: 25px 0;
   }
 }
 
@@ -166,8 +165,7 @@ ul {
 
 @media (max-width: 520px) {
   .header {
-    height: 200px;
-    padding-top: 60px;
+    padding: 50px 0;
   }
 
   .speaker-left {

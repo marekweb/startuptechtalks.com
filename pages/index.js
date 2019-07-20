@@ -28,8 +28,11 @@ export default () => (
       />
     </Head>
     <Section className="header">
-      <div>
-        <img style={{ maxWidth: 500 }} src="/static/startuptechtalks.png" />
+      <div style={{ margin: "0 20px" }}>
+        <img
+          style={{ width: "100%", maxWidth: 500 }}
+          src="/static/startuptechtalks.png"
+        />
       </div>
       <p>
         Deep insights shared by the top technologists
