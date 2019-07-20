@@ -1,4 +1,6 @@
 {
+  "name": "startuptechtalks.com",
+  "private": true,
   "scripts": {
     "start": "next",
     "build": "next build && next export",
